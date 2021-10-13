@@ -1,0 +1,93 @@
+body{
+    color: beige;
+    place-items: center;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    margin: 200px;
+    justify-content: center;
+}
+
+.left{
+    float: left;
+}
+
+.topleft{
+        width: 50px;
+        height: 20px;
+        border-top: 150px solid #B7B5B5;
+        border-right: 110px solid transparent;
+        position: absolute;
+      
+}
+
+.middle{
+    width: 200;
+    height: 200;
+    border: 200px solid black;
+    clip-path: polygon(38% 0, 46% 0, 46% 100%, 0 62%, 0 35%);
+    position: absolute;
+}
+
+.yellow{
+    width: 0;
+    height: 0;
+    margin-top: 244px;
+    border-top: 70px solid transparent;
+    border-left: 84px solid #AD6E00;
+    border-bottom: 87px solid transparent;
+    position: absolute;
+}
+
+.cream{
+    width: 0;
+    height: 25px;
+    border-left: 83px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 100px solid #E5DBC1;
+    position: absolute;
+    margin-top: 275px;
+    clip-path: polygon(45% 30%, 0% 100%, 100% 100%);
+}
+
+.right{
+ float: left;
+}
+
+.red{
+    width: 300;
+    height: 200;
+    border: 200px solid #AD2010;;
+    clip-path: polygon(46% 58%, 100% 0, 100% 100%, 83% 100%);
+    position: absolute;
+}
+
+.middletriangle{
+    width: 200px;
+    height: 200pxpx;
+    border-bottom: 240px solid #E5DBC1;
+    position: absolute;
+    clip-path: polygon(0 0, 18% 0, 68% 40%, 0 100%);
+    margin-left: 185px;
+}
+
+.topright{
+    width: 0;
+    height: 25px;   
+    border: 100px solid #B7B5B5;
+    position: absolute;
+    clip-path: polygon(0 0, 21% 75%, 100% 0);
+    margin-left: 200px;
+
+}
+
+.bottommiddle{
+    width: 0;  
+    border: 100px solid #615F5F;
+    position: absolute;
+    margin-left: 184px;
+    margin-top: 230px;
+    clip-path: polygon(0 0, 0 85%, 74% 85%);
+}
